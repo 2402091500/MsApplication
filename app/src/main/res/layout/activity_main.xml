@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:background="@mipmap/bg"
+
+    tools:context="com.example.administrator.msapplication.MainActivity">
+
+    <tyrantgit.widget.HeartLayout
+        android:id="@+id/heart_layout"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+         />
+
+    <ImageView
+        android:id="@+id/zan"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/image_prise_icon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+</RelativeLayout>
